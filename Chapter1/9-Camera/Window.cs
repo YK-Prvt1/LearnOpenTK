@@ -149,6 +149,7 @@ namespace LearnOpenTK
 
             if (input.IsKeyDown(Keys.Escape))
             {
+                CursorState = CursorState.Normal;
                 Close();
             }
 
